@@ -7,7 +7,7 @@
 - **[2026.02]** 🎉 Our paper is accepted by *Research* and available as an **Article in Press**.
 - Code release coming soon.
 
-> 🚧 **Code Release Status**
+> 🚧 **Code Status**
 > The implementation is currently being refactored and documented.
 > We will release the full training and inference code soon.
 
