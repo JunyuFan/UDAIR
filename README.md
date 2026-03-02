@@ -9,7 +9,7 @@
 
 > 🚧 **Code Status**
 > The implementation is currently being refactored and documented.
-> We will release the full training and inference code soon.
+> We will release the code soon.
 
 
 ## Abstract
