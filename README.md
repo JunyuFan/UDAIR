@@ -1,7 +1,6 @@
 # From Controlled Scenarios to the Real-World: Cross-Domain Degradation Pattern Matching for All-in-One Image Restoration
 
 [![Paper](https://img.shields.io/badge/Paper-Research_(In_Press)-red.svg)](https://spj.science.org/doi/10.34133/research.1191)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## 🔥 News
 - **[2026.02]** 🎉 Our paper is accepted by *Research* and available as an **Article in Press**.
@@ -27,14 +26,14 @@ If you find our framework or concept useful for your research, please consider c
 
 ```bibtex
 @article{
-doi:10.34133/research.1191,
-author = {Junyu Fan  and Chuanlin Liao  and Endi Xie  and Dongyue Guo  and Xiaolin Gou  and Duan Wei  and Junyang Hu  and Yi Lin },
-title = {From Controlled Scenarios to the Real-World: Cross-Domain Degradation Pattern Matching for All-in-One Image Restoration},
-journal = {Research},
-volume = {0},
-number = {ja},
-pages = {},
-year = {},
-doi = {10.34133/research.1191},
-URL = {https://spj.science.org/doi/abs/10.34133/research.1191},
-eprint = {https://spj.science.org/doi/pdf/10.34133/research.1191}}
+  doi:10.34133/research.1191,
+  author = {Junyu Fan  and Chuanlin Liao  and Endi Xie  and Dongyue Guo  and Xiaolin Gou  and Duan Wei  and Junyang Hu  and Yi Lin },
+  title = {From Controlled Scenarios to the Real-World: Cross-Domain Degradation Pattern Matching for All-in-One Image Restoration},
+  journal = {Research},
+  volume = {0},
+  number = {ja},
+  pages = {},
+  year = {},
+  doi = {10.34133/research.1191},
+  URL = {https://spj.science.org/doi/abs/10.34133/research.1191},
+  eprint = {https://spj.science.org/doi/pdf/10.34133/research.1191}}
