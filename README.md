@@ -13,7 +13,7 @@
 
 ## Overview
 <p align="center">
-  <img src="overview" width="85%">
+  <img src="overview.png" width="85%">
 </p>
 
 ## Abstract
