@@ -1,10 +1,10 @@
 # From Controlled Scenarios to the Real-World: Cross-Domain Degradation Pattern Matching for All-in-One Image Restoration
 
-[![Paper](https://img.shields.io/badge/Paper-Early_Access-red.svg)](https://spj.science.org/doi/10.34133/research.1191) 
+[![Paper](https://img.shields.io/badge/Paper-Research_(In_Press)-red.svg)](https://spj.science.org/doi/10.34133/research.1191)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## 🔥 News
-- **[2026.02]** 🎉 Our paper is accepted by *Research* and available in Early Access.
+- **[2026.02]** 🎉 Our paper is accepted by *Research* and available as an **Article in Press**.
 - Code release coming soon.
 
 > 🚧 **Code Release Status**
