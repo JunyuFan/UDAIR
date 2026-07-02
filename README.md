@@ -1,6 +1,6 @@
 # From Controlled Scenarios to the Real-World: Cross-Domain Degradation Pattern Matching for All-in-One Image Restoration
 
-[![Paper](https://img.shields.io/badge/Paper-Research_(Published)-green.svg)](https://spj.science.org/doi/10.34133/research.1191)
+[![Paper](https://img.shields.io/badge/Paper-Research-green.svg)](https://spj.science.org/doi/10.34133/research.1191)
 
 ## Overview
 <p align="center">
