@@ -18,8 +18,42 @@
 ## Abstract
 As a fundamental imaging task, All-in-One Image Restoration (AiOIR) aims to achieve image restoration caused by multiple degradation patterns via a single model with unified parameters. However, existing methods typically rely on sample-wise supervision, which tends to entangle degradation features with image content. Furthermore, the inevitable distribution shift between training data (source domain) and real-world samples (target domain) weakens degradation awareness, severely limiting the generalization capability of model in real-world scenarios. To address this, a Unified Domain-Adaptive Image Restoration (UDAIR) computer vision model is proposed by achieving the transition from learning unstable local features to learning robust universal prototypes. To decouple degradation from content, a Cross-Sample Contrastive Learning (CSCL) mechanism is implemented by a Codebook-based module. By contrasting samples with shared degradations but diverse content, the proposed model learns discrete embeddings as degradation prototypes. Furthermore, to actively bridge the distribution gap during inference, a correlation alignment-based test-time adaptation mechanism is designed to dynamically pull drifting target features towards their corresponding degradation cluster centers to effectively eliminate residual alignment discrepancies. Experimental results on 10 open-source datasets demonstrate that UDAIR achieves new state-of-the-art performance for the AiOIR task, in which each technical module contributes to desired performance improvement. Most importantly, the feature cluster validates the degradation identification under multiple degradation patterns, and qualitative comparisons showcase robust generalization to real-world scenarios.
 
-## Quick Start
-Coming soon.
+## Environment
+
+```bash
+pip install -r requirements.txt
+```
+
+## Expected Data Layout
+
+The default config expects paired source-domain training and validation data:
+
+```text
+data/
+  train/
+    denoising/images/
+    denoising/labels/
+    dehazing/images/
+    dehazing/labels/
+    ...
+  val/
+    <same task folders as train>/
+  test/
+    <same task folders as train>/
+```
+
+## Train
+
+```bash
+python train.py -c config/config.py
+```
+
+## Test
+
+```bash
+python test.py -c config/config.py -o results
+```
+
 
 ## Citation
 If you find our framework or concept useful for your research, please consider citing our paper:
