@@ -28,10 +28,10 @@ data/
     dehazing/images/
     dehazing/labels/
     ...
-  val/
-    <same task folders as train>/
+
   test/
     <same task folders as train>/
+    ...
 ```
 
 ## Train
